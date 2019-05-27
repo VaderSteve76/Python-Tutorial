@@ -60,5 +60,14 @@ if w not in numbers:
   print(w not in numbers)
 
 
+
 # identity operators (is, is not) -  compare the objects, not if they are equal
 # but if they are the same objectwith the same memory location
+
+# IS
+if x is y:
+  print(x is y)
+
+# IS NOT
+if x is not y:
+  print(x is not y)
