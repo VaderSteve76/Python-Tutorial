@@ -27,3 +27,24 @@ print(len(fruits))
 
 
 # a set is a collection which is unordered an unindexed. No duplicate members
+
+# create set
+fruits_set = {'apples', 'oranges', 'bananas', 'grapes'}
+
+# check if in a set
+print('apples' in fruits_set)
+
+# add to a set
+fruits_set.add('mangos')
+print(fruits_set)
+
+# remove from a set
+fruits_set.remove('mangos')
+print(fruits_set)
+
+# clear a set
+fruits_set.clear()
+print(fruits_set)
+
+# delete a set
+# del fruits_set
