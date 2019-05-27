@@ -18,7 +18,9 @@ num = getSum(5, 5)
 print(num)
 
 
-
 # a lambda function is a small anonymous function
 # A lambda function can take any number of arguments, but can have only one expression
 # similar to arrow functions in js
+
+getSum = lambda num1, num2 : num1 + num2
+print(getSum(25, 25))
