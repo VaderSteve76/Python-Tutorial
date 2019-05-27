@@ -57,7 +57,7 @@ print(s.find('r'))
 print(s.isalnum())
 
 # is all alphatic
-print(s.salpha())
+print(s.isalpha())
 
 # is all numeric
 print(s.isnumeric())
