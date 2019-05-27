@@ -44,5 +44,21 @@ if not(x == y):
   print(f'{x} is not equal to {y}')
 
 
+
 # membership operators (not, not in) - membership operators are used to tets 
 # if a sequence is presented in an object
+z = 3
+w = 6
+numbers = [1, 2, 3, 4, 5]
+
+# IN
+if z in numbers:
+  print(z in numbers)
+
+# NOT IN
+if w not in numbers:
+  print(w not in numbers)
+
+
+# identity operators (is, is not) -  compare the objects, not if they are equal
+# but if they are the same objectwith the same memory location
