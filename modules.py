@@ -12,11 +12,21 @@ from time import time
 # pip module
 from camelcase import CamelCase
 
+# import custom module
+import validator
+from validator import validate_email
+
 # today = datetime.date.today()
 today = date.today()
 timestamp = time()
 
 c = CamelCase()
 print(c.hump('hello there everyone'))
+
+email = 'testuser@testmail.com'
+if validate_email(email):
+  print('Email is valid')
+else:
+  print('Email is bad')
 
 print(timestamp)
