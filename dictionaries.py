@@ -44,3 +44,11 @@ print(person)
 
 # get length
 print(len(person2))
+
+# list of dictionaries
+people = [
+  {'name': 'Martha', 'age': 30},
+  {'name': 'Donna', 'age': 60}
+]
+print(people)
+print(people[1]['name'])
