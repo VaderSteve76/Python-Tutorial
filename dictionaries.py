@@ -17,3 +17,30 @@ print(person, type(person))
 # get a value
 print(person['first_name'])
 print(person.get('last_name'))
+
+# add key/value
+person['phone'] = '555-555-5555'
+print(person)
+
+# get dict keys
+print(person.keys())
+
+# get dict items
+print(person.items())
+
+# copy a dictionary
+person2 = person.copy()
+person2['city'] = 'Chicago'
+print(person2)
+
+# remove item
+del(person['age'])
+person.pop('phone')
+print(person)
+
+# clear dictionary
+person.clear()
+print(person)
+
+# get length
+print(len(person2))
